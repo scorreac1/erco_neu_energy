@@ -1,0 +1,7 @@
+2. Resolución de problemas
+Supongamos que eres responsable de probar la pasarela de pagos de NEU, y los usuarios han 
+informado que, ocasionalmente, el proceso de pago falla sin dar ningún mensaje de error. El equipo 
+de desarrollo no ha identificado la causa raíz aún. ¿Cuáles serían los pasos que seguirías para 
+investigar y resolver este problema?
+
+R/ Este es un caso un poco complicado al no obtener un mensaje de error por parte de los usuarios cuando se presenta el error en la plataforma, pero es posible resolverlo. Comenzaría por recopilar información acerca del problema, mediante las quejas que ellos hayan hecho llegar bien sean pantallasos, descripciones, registros de las transacciones, etc; esto incluye comunicarme de manera directa con los usuarios para obtener más información que pueda ser relevante. Luego intentaría reproducir el problema en un entorno de prueba para evitar problemas reales con transacciones. También es necesario revisar el código con el equipo de desarrollo, es posible que el error se oculte a simple vista. Realizaría pruebas de rendimiento y estrés debido a que los errores intermitentes pueden estar asociados a la carga de trabajo. Analizaría los datos de los fallos proporcionados en búsqueda de patrones que puedan influenciar en los mismos. Es importante que si se llega a hacer un cambio porque se cree haber encontrado el problema o se tiene una solución temporal, este debe ser documentado para evitar problemas de regresión. Por último, le haría seguimiento cuando se cree haber resuelto el problema.
