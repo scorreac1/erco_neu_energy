@@ -1,0 +1,14 @@
+¿Qué es QA y por qué es importante en el desarrollo de software?
+QA viene de Quality Assurance y se encarga de verificar la calidad del software producido por medio de distintas prácticas. Esto ayuda a mejorar la calidad del producto o servicio ofrecido, reduce la probabilidad de errores y riesgos del software, mejora la satisfacción de clientes y usuarios y agiliza los procesos de desarrollo.
+
+¿Cuál es la diferencia entre pruebas manuales y pruebas automáticas?
+Estas son dos posibles formas de abordar la evaluación de calidad del software. Las pruebas manuales, como  su nombre lo dice, son ejecutadas por un humano de manera manual al interactuar con el software de la manera que un usuario lo haría. Estas permiten probar aspectos subjetivos del software y evaluar la experiencia de un usuario ante el mismo. Requieren de más tiempo que las pruebas automáticas.
+Las pruebas automáticas se realizan ejecutando scripts o herramientas sin intervención humana. Estas se pueden realizar de manera repetitiva y permiten evaluar aspectos del software como su rendimiento. Son pruebas que al no depender de la intervención humana se realizan de manera rápida, sin tener en cuenta de manera directa la experiencia de usuario.
+Ambos métodos son importantes, dependiendo de los objetivos se puede priorizar uno de los dos o usar ambos por igual.
+
+¿Qué son los casos de prueba y cómo los crearías?
+Los casos de prueba son documentos o instrucciones que describen la manera en la que se debe probar una función o característica de un software. Estos sirven para evaluar si el software cumple con los requerimientos y si funciona de manera correcta. Es importante crear la documentación de los test para generar trazabilidad y detectar de manera rápida y organizada los posibles problemas que pueda tener el software.
+Yo los crearía comenzando por los requisitos del software ya que esto es lo que se desea evaluar. Priorizaría los casos críticos para el desarrollo. Se debe ser explícito en aquello que se desea probar sin sobrecomplicar aquello que se desea hacer. Aquellos casos de prueba que sean automatizables se automatizan para poder ahorrar tiempo y recursos.  
+
+¿Cuál es el propósito de la prueba de regresión?
+Una prueba de regresión permite evaluar si las nuevas modificaciones, introducidas en actualizaciones al código, no han generado errores de compatibilidad con lo que había sido desarrollado antes o si han generado problemas en las funciones previamente existentes. Estas pruebas pueden ser automatizadas ya que se conoce el software en su estado anterior. Se debe garantizar la funcionalidad del software, su estabilidad, la eficiencia y su calidad.
